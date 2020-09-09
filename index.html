@@ -6,6 +6,8 @@
     <title>СЕАЛ-СТАНДАРТ</title>
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -50,7 +52,7 @@
                         <form action="#" class="header_form">
                             <input required type="text" placeholder="Ваше имя" class="header_input input_name">
                             <input required type="number" placeholder="Ваш номер телефона" class="header_input input_phone">
-                            <button class="header_btn"><a href="#" class="header_btn-link">Получить консультацию</a></button>
+                            <button class="button"><a href="#" class="button-link">Получить консультацию</a></button>
                         </form>
                     </div>
                 </div>
@@ -58,45 +60,47 @@
         </div>
     </header>
     <main>
-        <div class="section_advantages">
-            <h2 class="advantages_title">Эффективно решаем
-                сложные задачи по ликвидации
-                и банкротству предприятий
-            </h2>
-            <div class="advantages_block adv_block-lamp">
-                <p class="advantages_block-item">
-                    I2 лет ежедневной практики
-                </p>
-                <p class="advantages_block-descr">
-                    В вопросах ликвидации и банкротства
-                </p>
-            </div>
-            <div class="advantages_block adv_block-clock">
-                <p class="advantages_block-item">
-                    Сжатые сроки
-                </p>
-                <p class="advantages_block-descr">
-                    Максимально быстро проведем необходимые процедуры
-                </p>
-            </div>
-            <div class="advantages_block adv_block-license">
-                <p class="advantages_block-item">
-                    Лицензированные специалисты
-                </p>
-                <p class="advantages_block-descr">
-                    Опытные юристы, аудиторы, антикризисные менеджеры
-                </p>
-            </div>
-            <div class="advantages_block adv_block-cup">
-                <p class="advantages_block-item">
-                    Более 700 успешных проектов
-                </p>
-                <p class="advantages_block-descr">
-                    Индивидуальное отношение и профессиональный подход
-                </p>
-            </div>
-            <div class="advantages-image">
-                <img src="img/man.png" alt="Логотип компании" class="adv-image">
+        <div class="section_advantages-cover">
+            <div class="section_advantages-container">
+                <h2 class="advantages_title">Эффективно решаем
+                    сложные задачи по ликвидации
+                    и банкротству предприятий
+                </h2>
+                <div class="advantages_block adv_block-lamp wow fadeInRight" data-wow-delay="0.3s">
+                    <p class="advantages_block-item">
+                        I2 лет ежедневной практики
+                    </p>
+                    <p class="advantages_block-descr">
+                        В вопросах ликвидации и банкротства
+                    </p>
+                </div>
+                <div class="advantages_block adv_block-clock wow fadeInLeft" data-wow-delay="0.6s">
+                    <p class="advantages_block-item">
+                        Сжатые сроки
+                    </p>
+                    <p class="advantages_block-descr">
+                        Максимально быстро проведем необходимые процедуры
+                    </p>
+                </div>
+                <div class="advantages_block adv_block-license wow fadeInRight" data-wow-delay="0.9s">
+                    <p class="advantages_block-item">
+                        Лицензированные специалисты
+                    </p>
+                    <p class="advantages_block-descr">
+                        Опытные юристы, аудиторы, антикризисные менеджеры
+                    </p>
+                </div>
+                <div class="advantages_block adv_block-cup wow fadeInLeft" data-wow-delay="1.2s">
+                    <p class="advantages_block-item">
+                        Более 700 успешных проектов
+                    </p>
+                    <p class="advantages_block-descr">
+                        Индивидуальное отношение и профессиональный подход
+                    </p>
+                </div>
+                <div class="advantages-image">
+                    <img src="img/man.png" alt="Логотип компании" class="adv-image wow fadeInRight" data-wow-delay="2.0s">
+                </div>
             </div>
         </div>
         <div class="section_dignity">
@@ -147,11 +151,130 @@
                 </div>
             </div>
         </div>
-        <div class="section_certificate">">
-             <div class="container">
-                   
-            </div> 
+        <div class="section_hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <span class="hero-subtitle wow fadeInRight" data-wow-delay="0.6s">Директор фирмы</span>
+                        <h1 class="hero-title wow fadeInLeft" data-wow-delay="0.9s">Волохин Сергей Александрович</h1>
+                        <p class="hero-descr wow fadeInRight" data-wow-delay="1.5s">Занимаюсь банкротством и ликвидацией фирм малого и среднего бизнеса. У меня можно заказать услуги по наилучшей стоимости в кратчайшие сроки!</p>
+                        <button class="button button_hero wow fadeInLeft" data-wow-delay="2.0s"><a href="#" class="button-link">Бесплатная консультация</a></button>
+                    </div>
+                    <div class="hero-avatar wow fadeIn" data-wow-delay="2.6s">
+                        
+                    </div>
+                    <div class="hammer">
+                        <img src="img/hammer.png" alt="Судейский молот" class="hammer_img">
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="section_certificate">
+             <div class="section_certificate-cover">
+                <div class="container">
+                    <h1 class="section_dignity-title">
+                        Профессионально действуем в ваших интересах:
+                    </h1>
+                    <div class="section_dignity-item">
+                        <div class="section_dignity-block dignity-img-1">
+                            <p class="section_dignity-subtitle">
+                                Самостоятельно ведем дела
+                            </p>
+                            <p class="section_dignity-descr">
+                                Без Вашего личного присутствия и участия
+                            </p>
+                        </div>
+                        
+                        <div class="section_dignity-block dignity-img-2">
+                            <p class="section_dignity-subtitle">
+                                Приводим в порядок бухгалтерские документы
+                            </p>
+                            <p class="section_dignity-descr">
+                                Сопровождаем проверки
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="section_dignity-item">
+                        <div class="section_dignity-block dignity-img-3">
+                            <p class="section_dignity-subtitle">
+                                Минимизируем финансовые потери
+                            </p>
+                            <p class="section_dignity-descr">
+                                взыскиваем дебиторскую задолженность и реализуем имущество
+                            </p>
+                        </div>
+                        
+                        <div class="section_dignity-block dignity-img-4">
+                            <p class="section_dignity-subtitle">
+                                Соблюдаем конфиденциальность
+                            </p>
+                            <p class="section_dignity-descr">
+                                Какой-то текст
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+             </div>
+        </div>
+        <section class="carousel">
+            <div class="container">
+                <h2 class="carousel_title">
+                    Здесь нужно придумать какую-то умную надпись
+                </h2>
+                <h3 class="carousel_subtitle">
+                    Можно даже несколько надписей
+                </h3>
+                <div class="carousel__inner">
+                    <div><img src="img/certificate.jpg" class="carousel_img" alt=""></div>
+                    <div><img src="img/certificate.jpg" class="carousel_img" alt=""></div>
+                    <div><img src="img/certificate.jpg" class="carousel_img" alt=""></div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class="section_footer">
+            <div class="section_footer-cover">
+                 <div class="container_footer">
+                    <div class="section_footer-inner">
+                        <div class="footer_left">
+                            <div class="logo_elements logo_footer">
+                                <div class="header_logo">
+                                    <img src="img/header_logo.png" alt="Логотип компании" class="logo">
+                                </div>
+                                <div class="logo_text">
+                                    <div class="logo_title">
+                                        <p>сеал-стандарт</p>
+                                    </div>
+                                    <div class="logo_descr">
+                                        ликвидация, банкротство
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="footer_descr">
+                                Юридическая служба «Единый центр защиты» и Межрегиональная общественная организация
+                                 "Единый центр защиты прав потребителей"
+                            </p>
+                        </div>
+                        <div class="footer_right">
+                            <p class="footer_copyright">
+                                Условия оказания юридических услуг и тарифы:<br><br>
+                                Вся информация представлена на сайте в ознакомительных целях и не является публичной офертой. Требуется консультация специалиста.
+                                Все материалы данного сайта являются объектами авторского права (в том числе дизайн). Запрещается копирование, распространение (в том числе путем копирования на другие сайты и ресурсы в Интернете) или любое иное использование информации и объектов без предварительного согласия правообладателя.
+                                Логотипы "СЕАЛ-СТАНДАРТ" размещенные на сайте, являются зарегистрированным товарным знаком и охраняются государством как объект интеллектуальной собственности, любое копирование и создание схожего по степени смешения товарного знака запрещено законом.
+                                Компания оставляет за собой право производить клиентам рассылку через viber и sms сообщения.
+                            </p>
+                        </div>
+                    </div>
+                 </div>   
+            </div>
+        </div>
+    </footer>
+    <script src="js/wow.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
