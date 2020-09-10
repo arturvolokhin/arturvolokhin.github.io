@@ -49,10 +49,10 @@
                                 Просто, законно и безопасно
                             </p>
                         </div>
-                        <form action="#" class="header_form">
-                            <input required type="text" placeholder="Ваше имя" class="header_input input_name">
-                            <input required type="number" placeholder="Ваш номер телефона" class="header_input input_phone">
-                            <button class="button wow wobble" data-wow-delay="1.5s"><a href="#" class="button-link">Получить консультацию</a></button>
+                        <form action="send.php" method="post" class="header_form">
+                            <input required type="text" name="name" placeholder="Ваше имя" class="header_input input_name">
+                            <input required type="number" name="number" placeholder="Ваш номер телефона" class="header_input input_phone">
+                            <input type="submit" class="button wow wobble" data-wow-delay="1.5s" value="Получить консультацию">
                         </form>
                     </div>
                 </div>
