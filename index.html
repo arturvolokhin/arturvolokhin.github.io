@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="up">
         <div class="header_cover">
             <div class="container">  
                 <div class="header_elements">
@@ -49,10 +49,10 @@
                                 Просто, законно и безопасно
                             </p>
                         </div>
-                        <form action="send.php" method="post" class="header_form">
-                            <input required type="text" name="name" placeholder="Ваше имя" class="header_input input_name">
-                            <input required type="number" name="number" placeholder="Ваш номер телефона" class="header_input input_phone">
-                            <input type="submit" class="button wow wobble" data-wow-delay="1.5s" value="Получить консультацию">
+                        <form action="#" class="header_form">
+                            <input required name="user_name" type="text" placeholder="Ваше имя" class="header_input input_name">
+                            <input required name="user_phone"  placeholder="Ваш номер телефона" class="header_input input_phone">
+                            <button class="button wow wobble" data-wow-delay="1.5s"><a href="#" class="button-link">Получить консультацию</a></button>
                         </form>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
                         <button class="button button_hero wow fadeInLeft" data-wow-delay="1.6s"><a href="#" class="button-link">Бесплатная консультация</a></button>
                     </div>
                     <div class="hero-avatar wow fadeIn" data-wow-delay="2.0s">
-                        <p class="photo">МЕСТО ДЛЯ ФОТОГРАФИИ</p>
+                        
                     </div>
                     <div class="hammer">
                         <img src="img/hammer.png" alt="Судейский молот" class="hammer_img wow zoomInDown" data-wow-delay="2.2s">
@@ -271,10 +271,14 @@
             </div>
         </div>
     </footer>
+
+    <a href="#up" class="pageup"><img src="img/icons/up.svg" alt="up"></a>
+
     <script src="js/wow.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
