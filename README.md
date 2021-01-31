@@ -1,1 +1,4 @@
-# arturvolokhin.github.io
+Эксперементальный сайт, разработанный с нуля. 
+Нуждается в доработке.
+
+https://arturvolokhin.github.io/
